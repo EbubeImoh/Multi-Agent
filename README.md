@@ -55,11 +55,13 @@ README.md               # Project documentation
    ```sh
    pip install -r requirements.txt
 
+
 3. Configure environment variables
-Edit manager/.env and set your Google API key:
+  Edit manager/.env and set your Google API key:
 ```sh
     GOOGLE_GENAI_USE_VERTEXAI=0
     GOOGLE_API_KEY=your-google-api-key
+```
 
 Usage
 Import and instantiate the root_agent from manager/agent.py in your application.
